@@ -1,0 +1,243 @@
+/**** Animation ****/
+@-webkit-keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+@-moz-keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+@-ms-keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+@-o-keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+@-webkit-keyframes rotate180 {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); } }
+@-moz-keyframes rotate180 {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); } }
+@-ms-keyframes rotate180 {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); } }
+@-o-keyframes rotate180 {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); } }
+@keyframes rotate180 {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); } }
+@-webkit-keyframes rotateback {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); } }
+@-moz-keyframes rotateback {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); } }
+@-ms-keyframes rotateback {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); } }
+@-o-keyframes rotateback {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); } }
+@keyframes rotateback {
+  0% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(180deg); }
+  100% {
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateY(0); } }
+@-webkit-keyframes fadeInLeft {
+  0% {
+    border-bottom: none; }
+  100% {
+    border-bottom: 1px solid #efefef; } }
+@-moz-keyframes fadeInLeft {
+  0% {
+    border-bottom: none; }
+  100% {
+    border-bottom: 1px solid #efefef; } }
+@-ms-keyframes fadeInLeft {
+  0% {
+    border-bottom: none; }
+  100% {
+    border-bottom: 1px solid #efefef; } }
+@-o-keyframes fadeInLeft {
+  0% {
+    border-bottom: none; }
+  100% {
+    border-bottom: 1px solid #efefef; } }
+@keyframes fadeInLeft {
+  0% {
+    border-bottom: none; }
+  100% {
+    border-bottom: 1px solid #efefef; } }
+.fadeInLeft {
+  -webkit-animation: fadeInLeft  0.5s ease 1;
+  -o-animation: fadeInLeft 0.5s ease 1;
+  animation: fadeInLeft  0.5s ease 1; }
+
+.rotateback {
+  -webkit-animation: rotateback 0.5s ease 1;
+  -o-animation: rotateback 0.5s ease 1;
+  animation: rotateback 0.5s ease 1;
+  animation-fill-mode: forwards; }
+
+.rotate180 {
+  -webkit-animation: rotate180 0.5s ease 1;
+  -o-animation: rotate180 0.5s ease 1;
+  animation: rotate180 0.5s ease 1;
+  animation-fill-mode: forwards; }
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 0.7s ease 1;
+  -o-animation: fadeInRight 0.7s ease 1;
+  animation: fadeInRight 0.7s ease 1; }
+
+.flipflap_card {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s; }
+  .flipflap_card .card_reveal {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0; }
+  .flipflap_card:hover {
+    transform: rotateY(180deg); }
+    .flipflap_card:hover .card_reveal {
+      display: block;
+      opacity: 1; }
+
+/*# sourceMappingURL=animation.css.map */

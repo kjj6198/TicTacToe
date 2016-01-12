@@ -1,0 +1,12 @@
+@import '../function/mixin';
+.circle_image {
+  @include border-radius(50%);
+}
+
+.image {
+	@include max_image(100%,100%);
+}
+
+.with_border {
+	border: 2px solid #fff
+}

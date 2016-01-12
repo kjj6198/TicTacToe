@@ -1,0 +1,22 @@
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.underline {
+  text-decoration: underline; }
+
+.border_bottom {
+  border-bottom: 1px solid; }
+
+/*# sourceMappingURL=typography.css.map */

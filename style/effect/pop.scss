@@ -1,0 +1,32 @@
+@import '../function/mixin';
+
+.pop {
+	position: fixed;
+	top: 2%;
+	right: 5%;
+	z-index:5;
+	background-color: transparent;
+
+	.pop_item {
+		min-width: 250px;
+		height: 3rem;
+		@include border-radius(50px);
+		position: relative;
+		margin: 1rem 0;
+		padding: 0 1rem;
+
+		font-size: 1.2rem;
+		line-height: 3rem;
+		
+		-webkit-transition: all .3s ease;
+		   -moz-transition: all .3s ease;
+		    -ms-transition: all .3s ease;
+		     -o-transition: all .3s ease;
+		        transition: all .3s ease;
+
+		color: #fff;
+		text-align: center;
+		background-color: rgba(25,25,25,0.5);
+	}
+}
+

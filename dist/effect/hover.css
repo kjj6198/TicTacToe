@@ -1,0 +1,9 @@
+/**** Animation ****/
+.hover_effect {
+  -webkit-transition: ease, 0.4s;
+  -moz-transition: ease, 0.4s;
+  -ms-transition: ease, 0.4s;
+  -o-transition: ease, 0.4s;
+  transition: ease, 0.4s; }
+
+/*# sourceMappingURL=hover.css.map */

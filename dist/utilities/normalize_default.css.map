@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAuEA,qBAAqB;ACrErB,iBAAkB;EDwDhB,eAAe,EAAE,IAAI;EACrB,KAAK,ECxDqB,OAAO",
+"sources": ["../../style/function/mixin.scss","../../style/utilities/normalize_default.scss"],
+"names": [],
+"file": "normalize_default.css"
+}

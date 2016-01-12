@@ -1,0 +1,46 @@
+.relative {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top {
+  top: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.margin_fixed {
+  margin-bottom: -20px;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float:right;
+}
+
+
+
+@for $i from 1 through 10 {
+  .t-#{$i * 10} { top: #{$i*10}"%" };
+  .b-#{$i * 10} { bottom: #{$i*10} + "%" };
+  .l-#{$i * 10} { left: #{$i*10}  + "%" };
+  .r-#{$i * 10} { right: #{$i*10} + "%" };
+}

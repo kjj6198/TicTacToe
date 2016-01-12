@@ -1,0 +1,88 @@
+@import "../function/mixin";
+
+@include keyframe(fadeInRight) {
+    0% {
+        @include transform(translateX(-100%));
+    }
+    100% {
+        @include transform(translateX(0));
+    }
+}
+
+
+@include keyframe(rotate180) {
+    0% {
+        @include transform-origin(center, center);
+        @include transform(rotateY(0));
+    }
+    100% {
+        @include transform-origin(center, center);
+        @include transform(rotateY(180deg));
+    }
+}
+
+
+@include keyframe(rotateback) {
+    0% {
+        @include transform-origin(center, center);
+        @include transform(rotateY(180deg));
+    }
+    100% {
+        @include transform-origin(center, center);
+        @include transform(rotateY(0));
+    }
+}
+
+@include keyframe(fadeInLeft) {
+  0% {
+    border-bottom: none;
+  }
+
+  100% {
+    border-bottom: 1px solid #efefef;
+  }
+
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft  0.5s ease 1;
+  -o-animation: fadeInLeft 0.5s ease 1;
+  animation: fadeInLeft  0.5s ease 1;
+}
+
+
+.rotateback {
+    -webkit-animation: rotateback 0.5s ease 1;
+    -o-animation: rotateback 0.5s ease 1;
+    animation: rotateback 0.5s ease 1;
+    animation-fill-mode: forwards;
+}
+
+.rotate180 {
+    -webkit-animation: rotate180 0.5s ease 1;
+    -o-animation: rotate180 0.5s ease 1;
+    animation: rotate180 0.5s ease 1;
+    animation-fill-mode: forwards;
+}
+
+.fadeInRight {
+    -webkit-animation: fadeInRight 0.7s ease 1;
+    -o-animation: fadeInRight 0.7s ease 1;
+    animation: fadeInRight 0.7s ease 1;
+}
+
+// Solution in CSS
+.flipflap_card {
+  @include transition(all ease 0.5s);
+  .card_reveal {
+    @include transition(all ease 0.5s);
+    opacity: 0;
+  }
+  &:hover {
+    @include transform(rotateY(180deg));
+    .card_reveal {
+      display: block;
+      opacity: 1;
+    }
+  }
+}

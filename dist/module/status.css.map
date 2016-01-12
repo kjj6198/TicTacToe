@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACP,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,MAAM;EAEjB,cAAc,EAAE,GAAG",
+"sources": ["../../style/module/status.scss"],
+"names": [],
+"file": "status.css"
+}

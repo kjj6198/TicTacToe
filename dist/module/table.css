@@ -1,0 +1,48 @@
+/**** Animation ****/
+.bus_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  width: 100%;
+  margin: 1rem auto; }
+  .bus_table td, .bus_table th {
+    border-left: 1px solid #cbcbcb;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5rem 1rem; }
+  .bus_table td, .bus_table th:first-child {
+    border-left-width: 0; }
+  .bus_table thead {
+    background-color: #fe337d;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #2a1928; }
+    .bus_table thead td {
+      width: 10%;
+      padding: 1rem 1.5rem;
+      margin-right: 1rem; }
+      .bus_table thead td:last-child {
+        margin-right: 0; }
+  .bus_table tbody {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+    .bus_table tbody tr {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      text-align: center; }
+      .bus_table tbody tr:nth-child(2n) {
+        background-color: #eaeaea; }
+    .bus_table tbody td {
+      padding: 1rem 1rem; }
+      .bus_table tbody td a {
+        text-decoration: none;
+        color: #2a1928;
+        text-decoration: underline; }
+
+/*# sourceMappingURL=table.css.map */

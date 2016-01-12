@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,UAAU,EAAE,eAAe;;AAE7B,UAAU;EACR,UAAU,EAAE,iEAAiE;;AAE/E,eAAe;EACb,UAAU,EAAE,kEAAkE;;AAEhF,UAAU;EACR,UAAU,EAAE,iEAAiE;;AAE/E,UAAU;EACR,UAAU,EAAE,oEAAoE;;AAElF,UAAU;EACR,UAAU,EAAE,oEAAoE;;AAElF,UAAU;EACR,UAAU,EAAE,mEAAmE",
+"sources": ["../../style/effect/shadow.scss"],
+"names": [],
+"file": "shadow.css"
+}
