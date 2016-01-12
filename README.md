@@ -1,39 +1,8 @@
-## Todo App
+# OOXX
 
-Redux Practice.
+物件導向期末小專題，有一位同學做了 OOXX 進階版。規則是走到第六步的時候會開始依序消除第一步、第二步......以此類推，由程式幫助這個小遊戲進化。因為實在太有趣了，所以想把它變成網頁版的來玩玩看，看能不能推廣出去。
 
-### How To Run
+## 2016-1-12
 
-直接打開 `index.html` 檔案即可。
+最初版，尚未完成功能，等到期末考考完寒假來的時候再陸續把該有的功能補上。
 
-
-#### 一些 issue
-
-1. 能夠 `undo` 跟 `redo`
-2. 修正 layout 的頁面 (doing)
-3. 可以點擊完成狀態 (done)
-4. 連接 `firebase` (done)
-5. 可以採用類似 facebook 的方式，監聽 onSuccess 事件。讓 component 再更新一次
-6. 非同步的資料如何傳遞。
-7. 有一個小後台可以管理 (看是要用 express 或是 rails)
-
-
-#### About Redux
-
-**Resource**
-
-1. [high order component](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.7a0sjp807)
-2. [redux basic](http://rhadow.github.io/2015/07/30/beginner-redux/)
-3. [Redux Gitbook 中文翻譯版](http://camsong.github.io/redux-in-chinese/docs/api/index.html)
-4. [Redux Gitbbok](http://rackt.org/redux/)
-5. [Awesome Redux](https://github.com/xgrommx/awesome-redux)
-6. [Redux Concept 蠻清楚的 redux 概念](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.z1pse3qk7)
-
-
-#### Firebase
-1. [官方網站](https://www.firebase.com/)
-2. [api document](https://www.firebase.com/docs/)
-
-##### 一些心得記錄
-
-1. 
