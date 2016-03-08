@@ -46,11 +46,16 @@ Board.prototype.addStep = function() {
 // TODO: extract
 
 Board.prototype.checkSlash = function(shape) {
-  let rows = [];
+  let rows1 = [];
+  let rows2 = [];
   for(let i = 1; i <= 3; i++) {
-    rows.push(this["line" + i][i - 1]);
+    rows1.push(this["line" + i][i - 1]);
   }
-  return rows.every((val) => val === shape);
+
+  for(let i = 3; i >= 1; i--) {
+    rows2.push(this["line" + i][i - 1]);
+  }
+  return rows1.every((val) => val === shape) || rows2.every(val => val === shape);
 
 }
 
