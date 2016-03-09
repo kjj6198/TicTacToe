@@ -108,8 +108,8 @@ class TicTaeToc extends React.Component {
       transition: `all ease 0.4s`
     };
 
-    const topStyle    = Object.assign({}, style, {borderTop: `1px solid #aaa`});
-    const bottomStyle = Object.assign({}, style, {borderBottom: `1px solid #aaa`});
+    const topStyle    = Object.assign({}, style, {border:`none`,borderTop: `1px solid #aaa`});
+    const bottomStyle = Object.assign({}, style, {border:`none`,borderBottom: `1px solid #aaa`});
 
     const flexStyle = {
       display: 'flex',
