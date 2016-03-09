@@ -108,6 +108,9 @@ class TicTaeToc extends React.Component {
       transition: `all ease 0.4s`
     };
 
+    const topStyle    = Object.assign({}, style, {borderTop: `1px solid #aaa`});
+    const bottomStyle = Object.assign({}, style, {borderBottom: `1px solid #aaa`});
+
     const flexStyle = {
       display: 'flex',
     }
@@ -117,9 +120,9 @@ class TicTaeToc extends React.Component {
     return (
       <div style={{display: 'flex', flexWrap: 'wrap', width: `50%`, margin: ' 1rem auto'}}>
         <div  style={flexStyle}>
-          <span style={style} onClick={this.handleClick} data-position="1,0">{this.renderToBoard(this.props.board.line1[0])}</span>
-          <span style={style} onClick={this.handleClick} data-position="1,1">{this.renderToBoard(this.props.board.line1[1])}</span>
-          <span style={style} onClick={this.handleClick} data-position="1,2">{this.renderToBoard(this.props.board.line1[2])}</span>  
+          <span style={topStyle} onClick={this.handleClick} data-position="1,0">{this.renderToBoard(this.props.board.line1[0])}</span>
+          <span style={topStyle} onClick={this.handleClick} data-position="1,1">{this.renderToBoard(this.props.board.line1[1])}</span>
+          <span style={topStyle} onClick={this.handleClick} data-position="1,2">{this.renderToBoard(this.props.board.line1[2])}</span>  
         </div>
 
         <div style={flexStyle}>
@@ -129,9 +132,9 @@ class TicTaeToc extends React.Component {
         </div>
         
         <div style={flexStyle}>
-          <span style={style} onClick={this.handleClick} data-position="3,0">{this.renderToBoard(this.props.board.line3[0])}</span>
-          <span style={style} onClick={this.handleClick} data-position="3,1">{this.renderToBoard(this.props.board.line3[1])}</span>
-          <span style={style} onClick={this.handleClick} data-position="3,2">{this.renderToBoard(this.props.board.line3[2])}</span>
+          <span style={bottomStyle} onClick={this.handleClick} data-position="3,0">{this.renderToBoard(this.props.board.line3[0])}</span>
+          <span style={bottomStyle} onClick={this.handleClick} data-position="3,1">{this.renderToBoard(this.props.board.line3[1])}</span>
+          <span style={bottomStyle} onClick={this.handleClick} data-position="3,2">{this.renderToBoard(this.props.board.line3[2])}</span>
         </div>
 
         <div style={gameOverModal} >
